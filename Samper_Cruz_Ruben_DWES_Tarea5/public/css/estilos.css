@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+    background: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.header-img {
+    max-width: 180px;
+    height: auto;
+}
+
+.footer {
+    background: gray;
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer a {
+    margin: 0 10px;
+}
+
+body {
+    background-image: url("https://statics-maker.llt-services.com/alm/images/2025/07/08/medium-wp/07bc73df-82c2-49b0-a39c-5e029e2d17fe-825.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.listado {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #c00000;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.login,
+.formularioCompra,
+.ticket {
+    max-width: 600px;
+    margin: 30px auto;
+    background: #c00000;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 6px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    background: white;
+    color: #c00000;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    color: #333;
+}
+
+table thead {
+    background: #333;
+    color: white;
+}
+
+table th {
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+    border: 1px solid #ddd;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.icono-telefono,
+.icono-banco {
+    width: 20px;
+    height: 20px;
+}
+
+.btnAdminitracion {
+    color: black;
+}
+
+.btnAdminitracion:hover {
+    color: white;
+}
+
+.btnFormularioAbono {
+    color: black;
+}
+
+.btnFormularioAbono:hover {
+    color: white;
+}
+
+.btnCerrarSesion {
+    color: black;
+
+}
+
+.btnCerrarSesion:hover {
+    color: white;
+
+}
+
+.alerta {
+    color: yellow;
+    font-size: 13px;
+}
